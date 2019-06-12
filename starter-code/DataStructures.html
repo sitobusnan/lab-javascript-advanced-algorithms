@@ -1,21 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>DataStructures | Stacks &amp; Queues</title>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-  <link rel="stylesheet" href="css/styles.css">
-  <script src="lib/jquery-3.1.1.min.js"></script>
-</head>
-<body>
-  <section class="container">
-    <h1>Abstract Data Types</h1>
+  <head>
+    <meta charset="UTF-8" />
+    <title>DataStructures | Stacks &amp; Queues</title>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+      integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+    <script src="lib/jquery-3.1.1.min.js"></script>
+  </head>
+  <body>
+    <section class="container">
+      <h1>Abstract Data Types</h1>
+    </section>
+    <div class="sq">
+      <section>
+        <h1>STACK</h1>
+        <div class="form-group">
+          <label>Element to add:</label>
+          <input id="inputStack" type="text" class="form-control" />
+          <small class="form-text text-muted">Press ADD to insert or TAKE to delete items</small>
+        </div>
+        <div class="bottons">
+          <button id="sadd" type="button" class="btn btn-primary">ADD</button>
+          <button id="stake" type="button" class="btn btn-danger">TAKE</button>
+        </div>
+        <li id="stackFull" class="list-group-item hide alert">STACK OVERFLOW</li>
+        <ul id="stackList" class="list-group stack">
+          <li class="list-group-item sempty">EMPTY</li>
+          <li class="list-group-item sempty">EMPTY</li>
+          <li class="list-group-item sempty">EMPTY</li>
+          <li class="list-group-item sempty">EMPTY</li>
+          <li class="list-group-item sempty">EMPTY</li>
+          <li class="list-group-item sempty">EMPTY</li>
+          <li class="list-group-item sempty">EMPTY</li>
+          <li class="list-group-item sempty">EMPTY</li>
+        </ul>
+        <li id="stackEmpty" class="list-group-item alert">STACK UNDERFLOW</li>
+      </section>
+      <section>
+        <h1>QUEUE</h1>
+        <div class="form-group">
+          <label>Element to add:</label>
+          <input id="inputQueue" type="text" class="form-control" />
+          <small class="form-text text-muted">Press ADD to insert or TAKE to delete items</small>
+        </div>
+        <div class="bottons">
+          <button id="qadd" type="button" class="btn btn-primary">ADD</button>
+          <button id="qtake" type="button" class="btn btn-danger">TAKE</button>
+        </div>
+        <li id="queueFull" class="list-group-item hide alert">QUEUE OVERFLOW</li>
+        <ul id="queueList" class="list-group queue">
+          <li class="list-group-item qempty q">EMPTY</li>
+          <li class="list-group-item qempty q">EMPTY</li>
+          <li class="list-group-item qempty q">EMPTY</li>
+          <li class="list-group-item qempty q">EMPTY</li>
+          <li class="list-group-item qempty q">EMPTY</li>
+          <li class="list-group-item qempty q">EMPTY</li>
+          <li class="list-group-item qempty q">EMPTY</li>
+          <li class="list-group-item qempty q">EMPTY</li>
+        </ul>
+        <li id="queueEmpty" class="list-group-item alert">QUEUE UNDERFLOW</li>
+      </section>
+    </div>
 
-  </section>
-
-  <script src="src/StackDataStructure.js"></script>
-  <script src="src/QueueDataStructure.js"></script>
-  <script src="js/stack.js"></script>
-  <script src="js/queue.js"></script>
-</body>
+    <script src="src/StackDataStructure.js"></script>
+    <script src="src/QueueDataStructure.js"></script>
+    <script src="js/stack.js"></script>
+    <script src="js/queue.js"></script>
+  </body>
 </html>

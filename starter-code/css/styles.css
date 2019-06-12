@@ -1,0 +1,48 @@
+h1{
+  text-align: center;
+}
+
+.list-group{
+  width: 300px;
+}
+
+.hide{
+  display: none;
+}
+
+.alert{
+  background-color: brown;
+  color: white;
+}
+
+.sq{
+  width: 60%;
+  margin: 0 auto;
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.bottons{
+  width: 100%;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.btn{
+  width: 40%;
+}
+
+.sused{
+  background-color: gray;
+  color: white;
+}
+
+.qused{
+  background-color: blueviolet;
+  color: white;
+}
+
+
+
